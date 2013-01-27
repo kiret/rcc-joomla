@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<releases>
+   <version>
+      <number>1.1.5</number>
+      <package_url>http://www.google.com.my</package_url>
+      <changelog>Changes here and there</changelog>
+   </version>
+   <version>
+      <number>1.1.4</number>
+      <package_url>http://www.google.com.my</package_url>
+      <changelog>Changes here and there</changelog>
+   </version>
+</releases>

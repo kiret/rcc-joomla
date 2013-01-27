@@ -1,0 +1,114 @@
+/*------------------------------------*\
+    $searchbar.less
+\*------------------------------------*/
+// main searchbar
+
+.discuss-searchbar {
+	// background: #333;
+	border: 1px solid @grayLighter;
+	padding: 10px 14px;
+	margin-bottom: 20px;
+	height: 50px;
+	background: @discussSearchBarBackground;
+	// width: 100%;
+	position: relative;
+	.border-radius(2px);
+	.clearfix();
+
+	table {
+		td,tr {
+			border:none;
+		}
+	}
+
+	.discuss-searchbar--left {
+		width: 70px;
+	}
+	.discuss-searchbar--center {
+		width: 100%;
+	}
+	.discuss-searchbar--right {
+		width: 140px;
+	}
+	.discuss-searchbar--input {
+		position: relative;
+		width: 100%;
+		display: inline-block;
+
+		// .icon-ed-arrow-searchbar {
+		// 	position: absolute;
+		// 	z-index: 2;
+		// 	top: 14px;
+		// 	left: 54px;
+		// }
+		// &:before, &:after {
+		// 	content: "";
+		// 	position: absolute;
+		// 	border-color: transparent;
+		// 	border-style: solid;
+		// 	display: inline-block;
+		// }
+		// &:before {
+		// 	z-index: 2;
+		// 	top: 14px;
+		// 	left: -7px;
+		// 	border-width: 8px 8px 8px 0;
+		// 	border-right-color: @grayLight;
+		// }
+		// &:after {
+		// 	z-index: 3;
+		// 	top: 14px;
+		// 	left: -6px;
+		// 	border-width: 8px 8px 8px 0;
+		// 	border-right-color: #fff;
+		// }
+	}
+
+	.discuss-avatar {
+		margin-right: 10px;
+	}
+	.input-searchbar {
+		height: 52px;
+		width: 98%;
+		font-size: 28px;
+		line-height: 28px;
+		position: absolute;
+		padding: 4px 1%;
+		.box-sizing(border-box);
+
+	}
+	.btn-searchbar {
+		position: absolute;
+		right: 4%;
+		top: 10px;
+	}
+	.btn-ask {
+		font-size: 15px;
+		font-weight: bold;
+		padding: 15px 10px;
+		width: 140px;
+		height: 22px;
+		display: block;
+	}
+	&.narrow {
+		height: 110px;
+		.discuss-searchbar--right {
+			display: block;
+			width: auto;
+		}
+		.input-searchbar {
+			font-size: 18px;
+		}
+		.btn-ask {
+			width: 100%;
+			display: block;
+			margin-top: 10px;
+			.box-sizing(border-box);
+			height: 50px;
+		}
+		.discuss-table {
+			display: block;
+		}
+	}
+
+}//discuss-searchbar
