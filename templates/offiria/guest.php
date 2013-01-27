@@ -43,7 +43,7 @@ if (!$my->id && ($option == 'com_register' || $view == 'reset' || $view == 'remi
 <body>
 <div class="container_12">
  	<div id="offiria_loginbox">
-		<div class="offiria-logo"><img src="images/rccLogo.jpg" alt="RCC"></div>
+		<div class="offiria-logo"><img src="images/rcclogo.jpg" alt="RCC"></div>
 		<!--
 			<div class="offiria-logo"><?php echo JText::_('CUSTOM_SITE_NAME');?></div>
 		-->
